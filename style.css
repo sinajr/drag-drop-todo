@@ -1,0 +1,58 @@
+.todo-box{
+    height: 600px;
+    width:100%;
+    background-color: azure;
+}
+.modalbox{
+    padding: 20px;
+    width: 500px;
+    background-color: #eee;
+    font-size: 24px;
+    border-radius: 25px;
+}
+.modalBox{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    animation: modalanime 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes modalanime{
+    from{
+        top:-50%;
+    }
+    to{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+.closemodal{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    animation: closemodal 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes closemodal{
+    from{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    to{
+        top:-50%;
+    }
+}
+i{
+    cursor:pointer;
+}
+.pees{
+    padding: 10px;
+    background-color: blueviolet;
+    color: #eee;
+    border-radius: 15px;
+    margin: 3px;
+}

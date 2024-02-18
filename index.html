@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>user name input</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <section class="container p-0">
+            <div class="main d-lg-flex d-sm-flex d-xl-flex d-md-flex p-3">
+                <div class="col-lg-3 col-sm-3 dropBox col-md-3 col-xs-3 p-2 text-center">
+                    <lable class="text-center bg-warning">No Staus</lable>
+                    <div class="todo-box col ">
+                        <button class="btn bg-info m-3">Add to do list <i class="fa fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-3 dropBox col-md-3 col-xs-3 p-2 text-center">
+                    <lable class="text-center bg-warning">Not Start</lable>
+                    <div class="todo-box col"></div>
+                </div>
+                <div class="col-lg-3 col-sm-3 dropBox col-md-3 col-xs-3 p-2 text-center">
+                    <lable class="text-center bg-warning">In Progress</lable>
+                    <div class="todo-box col"></div>
+                </div>
+                <div class="col-lg-3 col-sm-3 dropBox col-md-3 col-xs-3 p-2 text-center">
+                    <lable class="ftext-center bg-warning">Completed</lable>
+                    <div class="todo-box col"></div>
+                </div>
+                </div>
+                <div class="modalBox d-none">
+                    <div class="modalbox d-lg-flex d-md-flex d-sm-flex d-xl-flex flex-lg-wrap flex-md-wrap flex-sm-wrap">
+                        <lable class="flex-sm-row flex-md-row flex-lg-row me-auto p-2">type your to do</lable>
+                        <i class="fa fa-remove"></i>
+                        <input type="text" class="flex-sm-row flex-md-row flex-lg-row form-control">
+                    </div>
+                </div>
+        </section>
+        <script src="javascript.js"></script>
+        <script src="https://kit.fontawesome.com/131491f023.js" crossorigin="anonymous"></script>
+    </body>
+    </html>
